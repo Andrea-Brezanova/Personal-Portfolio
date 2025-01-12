@@ -11,10 +11,10 @@
 </head>
 <body class="font-nunito">
     <!-- Intro section -->
-     <div class="sm:h-1/2 lg:h-screen bg-gradient-to-t from-indigo-200">
+     <div class="h-1/2 lg:h-screen bg-gradient-to-t from-indigo-200 relative overflow-hidden">
         <!-- Navbar --> 
         <nav class="w-full fixed top-0 bg-white z-10 dark:bg-slate-900">
-            <div class="container mx-auto py-5 flex justify-between">
+            <div class="container mx-auto py-5 flex justify-around">
                 <div class="flex items-center gap-3  mt-2">
                     <span class="text-2xl font-bold text-indigo-900 dark:text-white"
                       >Andrea Brezanova</span
@@ -38,13 +38,14 @@
                     </li>
                 </ul>
                 <img src="./img/moon.png" alt="Moon" class="hidden md:block w-5 h-5 cursor-pointer mt-3">
-                <div class="space-y-1 md:hidden cursor-pointer mt-4">
+                <div id="hamburger" class="space-y-1 md:hidden cursor-pointer mt-4 z-20">
+                    <div class="w-6 h-0.5 bg-black"></div>
                     <div class="w-6 h-0.5 bg-black"></div>
                     <div class="w-6 h-0.5 bg-black"></div>
                     <div class="w-6 h-0.5 bg-black"></div>
                 </div>
                 <div>
-                    <ul class="hidden bg-indigo-900 absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-white text-center">
+                    <ul id="menu" class="hidden bg-indigo-900 absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-white text-center">
                         <li class="">
                             <a href="">Homepage</a>
                         </li>
@@ -66,8 +67,17 @@
             </div>
         </nav>
         <!-- Intro content -->
-         <div></div>
+        <!-- Image -->
+        <img class="absolute bottom-0 right-0 lg:left-0 mx-auto h-5/6 object-cover" src="./img/Background-free-ID.png" alt="">
+        <!-- Circle -->
+         <div class="hidden lg:block absolute right-0 left-0 mx-auto -bottom-1/4 w-big h-big bg-indigo-900 rounded-full -z-10"></div>
+        <!-- Animated Text-->
+        <div class="absolute top-1/3 left-5 text-xl sm:left-10 sm:text-4xl md:left-1/4 md:text-6xl lg:left-5 xl:left-48 xl-text-7xl">
+            <span class="text-gray-600">Future</span>
+            <p class="text-red-500">Developer</p>
+        </div>
+         
      </div>
-     <script src="./app.js"></script>
+     <script src="app.js"></script>
 </body>
 </html>
