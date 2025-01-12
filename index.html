@@ -13,17 +13,61 @@
     <!-- Intro section -->
      <div class="sm:h-1/2 lg:h-screen bg-gradient-to-t from-indigo-200">
         <!-- Navbar --> 
-        <nav class="w-full fixed top-0 bg-red-400">
+        <nav class="w-full fixed top-0 bg-white z-10 dark:bg-slate-900">
             <div class="container mx-auto py-5 flex justify-between">
-                <span>1</span>
-                <span>2</span>
-                <span>3</span>
-                <span>4</span>
-                <span>5</span>
+                <div class="flex items-center gap-3  mt-2">
+                    <span class="text-2xl font-bold text-indigo-900 dark:text-white"
+                      >Andrea Brezanova</span
+                    >
+                  </div>
+                <ul class="hidden md:flex space-x-10 text-gray-600 font-bold text-sm uppercase mt-4">
+                    <li class="hover: text-gray-500">
+                        <a href="">Homepage</a>
+                    </li>
+                    <li class="hover: text-gray-500">
+                        <a href="">About</a>
+                    </li>
+                    <li class="hover: text-gray-500">
+                        <a href="">Skills</a>
+                    </li>
+                    <li class="hover: text-gray-500">
+                        <a href="">Projects</a>
+                    </li>
+                    <li class="hover: text-gray-500">
+                        <a href="">Experience</a>
+                    </li>
+                </ul>
+                <img src="./img/moon.png" alt="Moon" class="hidden md:block w-5 h-5 cursor-pointer mt-3">
+                <div class="space-y-1 md:hidden cursor-pointer mt-4">
+                    <div class="w-6 h-0.5 bg-black"></div>
+                    <div class="w-6 h-0.5 bg-black"></div>
+                    <div class="w-6 h-0.5 bg-black"></div>
+                </div>
+                <div>
+                    <ul class="hidden bg-indigo-900 absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-white text-center">
+                        <li class="">
+                            <a href="">Homepage</a>
+                        </li>
+                        <li class="">
+                            <a href="">About</a>
+                        </li>
+                        <li class="">
+                            <a href="">Skills</a>
+                        </li>
+                        <li class="">
+                            <a href="">Projects</a>
+                        </li>
+                        <li class="">
+                            <a href="">Experience</a>
+                        </li>
+                    </ul>
+                </div>
+                
             </div>
         </nav>
         <!-- Intro content -->
          <div></div>
      </div>
+     <script src="./app.js"></script>
 </body>
 </html>
