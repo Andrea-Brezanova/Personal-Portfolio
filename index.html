@@ -15,26 +15,26 @@
         <!-- Navbar --> 
         <nav class="w-full fixed top-0 bg-white z-10 dark:bg-slate-900">
             <div class="container mx-auto py-5 flex justify-around">
-                <div class="flex items-center gap-3  mt-2">
-                    <span class="text-2xl font-bold text-indigo-900 dark:text-white"
+                <div class="flex items-center gap-3  mt-1">
+                    <span class="text-3xl font-bold text-indigo-900 dark:text-white"
                       >Andrea Brezanova</span
                     >
                 </div>
                 <ul class="hidden md:flex space-x-10 text-gray-600 font-bold text-sm uppercase mt-4">
                     <li class="hover: text-gray-500">
-                        <a href="">Homepage</a>
+                        <a href="#">Homepage</a>
                     </li>
                     <li class="hover: text-gray-500">
-                        <a href="">About</a>
+                        <a href="#about">About</a>
                     </li>
                     <li class="hover: text-gray-500">
-                        <a href="">Skills</a>
+                        <a href="#skills">Skills</a>
                     </li>
                     <li class="hover: text-gray-500">
-                        <a href="">Projects</a>
+                        <a href="#projects">Projects</a>
                     </li>
                     <li class="hover: text-gray-500">
-                        <a href="">Experience</a>
+                        <a href="#contact">Contact</a>
                     </li>
                 </ul>
                 <img src="./img/moon.png" alt="Moon" class="hidden md:block w-5 h-5 cursor-pointer mt-3">
@@ -46,19 +46,19 @@
                 </div>
                 <ul id="menu" class="hidden bg-indigo-900 absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-white text-center">
                     <li class="">
-                            <a href="">Homepage</a>
+                            <a href="#">Homepage</a>
                     </li>
                     <li class="">
-                            <a href="">About</a>
+                            <a href="#about">About</a>
                     </li>
                     <li class="">
-                            <a href="">Skills</a>
+                            <a href="#skills">Skills</a>
                     </li>
                     <li class="">
-                            <a href="">Projects</a>
+                            <a href="#projects">Projects</a>
                     </li>
                     <li class="">
-                            <a href="">Experience</a>
+                            <a href="#contact">Contact</a>
                     </li>
                 </ul>                            
             </div>
@@ -79,9 +79,10 @@
         <!-- Text -->
         <div class="hidden lg:flex flex-col gap-5 absolute bottom-0 top-10 m-auto right-10 pl-5 bg-white p-6 h-fit w-1/3 rounded-lg shadow-xl"> 
             <h1 class="text-4xl font-bold text-indigo-900">Hi, I'm Andrea</h1>
-            <p class="text-gray-400">N oumquam quo
-                provident, facere minus temporibus veniam nostrum reprehenderit nihil?</p>
-                <div>
+                <p class="text-gray-400">
+                Junior coder with passion for service and team work.                
+                </p>
+                <div class="mt-4">
                     <a href="" class="bg-indigo-600 text-white text-xl px-3 py-2 w-fit">Download CV</a>
                 </div>
         </div>
@@ -101,13 +102,43 @@
                 simplicity for your audience.
               </p>
             </div>
+            <div class="flex flex-col justify-center items-center gap-5 mt-10 md:flex-row">
+                <div class="flex flex-col items-center  h-60 border  rounded-md  shadow-xl w-full">
+                    <div class="bg-red-500/80 w-full container-fluid text-center">
+                        <h1 class="uppercase ">Past</h1>
+                    </div>
+                    <div class="p-5 text-center text-gray-400">
+                        <p>fnewognroe</p>
+                        <p>fnewognroevfeger</p>
+                    </div>                   
+                </div>
+                <div class="flex flex-col items-center h-60 border  rounded-md  shadow-xl w-full">
+                    <div class="bg-red-500/80 w-full container-fluid text-center">
+                        <h1 class="uppercase ">Present</h1>
+                    </div>
+                    <div class="p-5 text-center text-gray-400">
+                        <p>fnewognroe</p>
+                        <p>fnewognroevfeger</p>
+                    </div>                   
+                </div>
+                <div class="flex flex-col items-center h-60 border  rounded-md  shadow-xl w-full">
+                    <div class="bg-red-500/80 w-full container-fluid text-center">
+                        <h1 class="uppercase ">Future</h1>
+                    </div>
+                    <div class="p-5 text-center text-gray-400">
+                        <p>fnewognroe</p>
+                        <p>fnewognroevfeger</p>
+                    </div>                   
+                </div>
+            </div>
       </div>
-      <!-- services -->
-    <div id="services" class="dark:bg-slate-900 py-32">
+
+      <!-- skills -->
+    <div id="skills" class="dark:bg-slate-900 py-32">
         <div class="container mx-auto">
           <!-- top -->
           <div class="flex flex-col gap-3 items-center">
-            <h1 class="text-indigo-600 font-bold">SERVICES</h1>
+            <h1 class="text-indigo-600 font-bold">SKILLS</h1>
             <h1 class="text-3xl dark:text-white">What do I offer?</h1>
             <p class="w-1/2 text-center text-gray-400">
               My approach to website design is to create a website that
@@ -204,8 +235,8 @@
           </div>
         </div>
       </div>
-      <!-- works -->
-      <div id="works" class="dark:bg-slate-900">
+      <!-- Projects-->
+      <div  id="projects" class="dark:bg-slate-900">
         <div class="container mx-auto">
           <!-- top -->
           <div class="flex flex-col gap-3 items-center">
@@ -312,13 +343,14 @@
       <!-- footer -->
       <div class="w-full bg-gray-800">
         <div class="container mx-auto py-5 flex items-center justify-between">
-          <div class="flex items-center gap-2">
-            <img class="w-8" src="./img/logo.png" alt="" />
-            <span class="text-2xl font-bold text-white">AB</span>
+          <div>           
           </div>
-          <span class="hidden md:block font-medium text-white"
-            >© 2025 Designed with ♥️ by Andrea Brezanova.</span
-          >
+          <div>
+            <span class="hidden md:block font-medium text-white"
+            >© 2025 Created with ♥️ by Andrea Brezanova</span>
+          <span>Design credits You Tube Channel of Lama Dev</span>
+          </div>
+          
           <div class="flex gap-2">
             <img class="w-4 cursor-pointer" src="./img/facebook.png" alt="" />
             <img class="w-4 cursor-pointer" src="./img/instagram.png" alt="" />
