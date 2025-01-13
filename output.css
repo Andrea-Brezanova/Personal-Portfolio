@@ -1846,6 +1846,14 @@ video {
     gap: 0.75rem;
   }
 
+  .md\:gap-big {
+    gap: 40rem;
+  }
+
+  .md\:gap-60 {
+    gap: 15rem;
+  }
+
   .md\:py-32 {
     padding-top: 8rem;
     padding-bottom: 8rem;
