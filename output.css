@@ -1677,6 +1677,11 @@ video {
     padding-bottom: 5rem;
   }
 
+  .sm\:py-24 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
   .sm\:pt-10 {
     padding-top: 2.5rem;
   }
